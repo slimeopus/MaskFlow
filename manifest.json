@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "MaskFlow — Blur Personal Data",
+  "version": "1.0.0",
+  "description": "Размывает балансы карт, email, переписку и аватары на страницах. Безопасные скриншоты и демонстрации экрана.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-inactive.svg",
+      "48": "icons/icon-inactive.svg",
+      "128": "icons/icon-inactive.svg"
+    },
+    "default_title": "MaskFlow"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/content.js"],
+      "css": ["content/blur.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-inactive_16.png",
+    "48": "icons/icon-inactive_48.png",
+    "128": "icons/icon-inactive_128.png"
+  }
+}

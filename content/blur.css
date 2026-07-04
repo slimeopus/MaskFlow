@@ -1,0 +1,29 @@
+span.mf-blur {
+  display: inline-block;
+}
+
+.mf-blur {
+  filter: blur(8px) !important;
+  transition: filter 0.25s ease !important;
+}
+
+.mf-blur img,
+.mf-blur video {
+  filter: blur(14px) !important;
+}
+
+.mf-hover-reveal .mf-blur:hover {
+  filter: none !important;
+}
+
+.mf-brush-active {
+  cursor: crosshair !important;
+}
+
+.mf-brush-active * {
+  cursor: crosshair !important;
+}
+
+.mf-brush-active ::selection {
+  background: transparent !important;
+}
