@@ -1,7 +1,7 @@
 # MaskFlow — Blur Personal Data
 
-[![Chrome Web Store]([https://img.shields.io/badge/Chrome_Web_Store-Extension-green?logo=google-chrome](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj?utm_source=item-share-cb))]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj?utm_source=item-share-cb))
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Extension-green?logo=google-chrome)](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://mit-license.org/)
 
 **MaskFlow** — расширение для браузера, которое размывает конфиденциальные данные на веб-страницах: балансы карт, email, номера телефонов, переписку и аватары. Идеально для безопасных скриншотов и демонстраций экрана.
 
@@ -20,7 +20,7 @@
 
 ### Из Chrome Web Store (рекомендуется)
 
-[Установить из Chrome Web Store](https://chrome.google.com/webstore)
+[Установить из Chrome Web Store](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj)
 
 ### Ручная установка
 
@@ -85,3 +85,7 @@ MIT License — см. файл [LICENSE](LICENSE) для подробной ин
 ## 🙌 Благодарности
 
 Разработано для защиты приватности и безопасной демонстрации экрана.
+
+---
+
+**MaskFlow** — ваш надежный помощник для безопасных скриншотов 🛡️
