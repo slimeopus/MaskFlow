@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MaskFlow — Blur Personal Data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Размывает балансы карт, email, переписку и аватары на страницах. Безопасные скриншоты и демонстрации экрана.",
   "permissions": [
     "storage",
