@@ -1,6 +1,6 @@
 # MaskFlow — Blur Personal Data
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Extension-green?logo=google-chrome)]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj?utm_source=item-share-cb))
+[![Chrome Web Store]([https://img.shields.io/badge/Chrome_Web_Store-Extension-green?logo=google-chrome](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj?utm_source=item-share-cb))]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/badedmaflnimccnmgomcmaeopjeifegj?utm_source=item-share-cb))
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **MaskFlow** — расширение для браузера, которое размывает конфиденциальные данные на веб-страницах: балансы карт, email, номера телефонов, переписку и аватары. Идеально для безопасных скриншотов и демонстраций экрана.
