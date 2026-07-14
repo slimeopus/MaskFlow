@@ -3,6 +3,17 @@ span.mf-blur {
 }
 
 .mf-blur {
+  color: transparent !important;
+  background: #1a1a1a !important;
+  border-radius: 3px !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-text-fill-color: transparent !important;
+  transition: background 0.25s ease !important;
+}
+
+img.mf-blur,
+video.mf-blur {
   filter: blur(8px) !important;
   transition: filter 0.25s ease !important;
 }
@@ -10,9 +21,19 @@ span.mf-blur {
 .mf-blur img,
 .mf-blur video {
   filter: blur(14px) !important;
+  transition: filter 0.25s ease !important;
 }
 
 .mf-hover-reveal .mf-blur:hover {
+  background: transparent !important;
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+}
+
+.mf-hover-reveal img.mf-blur:hover,
+.mf-hover-reveal video.mf-blur:hover,
+.mf-hover-reveal .mf-blur:hover img,
+.mf-hover-reveal .mf-blur:hover video {
   filter: none !important;
 }
 
